@@ -1,0 +1,17 @@
+{
+  "name": "save-csv-to-mongodb",
+  "version": "1.0.0",
+  "description": "A simple console application to save csv files to mongodb database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ayman Saraiji <ayman4ze@gmail.com> (https://ayman4ze.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "mongoose": "^5.2.13",
+    "readline": "^1.3.0"
+  }
+}
